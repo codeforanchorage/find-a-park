@@ -85,7 +85,7 @@ define(function(require, exports) {
       }
 
       var value = feature[key];
-      if (value !== undefined && (value.length === undefined || value.length !== 0)) {
+      if (value && (value.length === undefined || value.length !== 0)) {
         rendered = format(value, property);
         if (rendered) {
           popup.push({
