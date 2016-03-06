@@ -5,25 +5,24 @@
     "contact": "Please send feedback, ideas, and bug reports to our <a href=\"https://github.com/codeforboston/finda/issues\" target=\"_blank\">Github</a> page."
   },
   "map": {
-    "preview_attribute": "Facility_N",
+    "preview_attribute": "Facility_Name",
     "center":[61.1590074,-149.8642939],
-    "zoom":13,
-    "maxZoom":16,
-    "maxBounds":[
-      [60, -148],
-      [62, -150]
-    ]
+    "zoom":11,
+    "maxZoom":16
   },
   "properties": [
-    {"name": "Facility_N", "title": "Name"},
-    {"name": "Facility_T", "title": "Type"}
+    {"name": "Facility_Name", "title": "Name"},
+    {"name": "Facility_Type", "title": "Type"},
+    {"name": "Description", "title": "Description"},
+    {"name": "Owner", "title": "Owner"},
+    {"name": "Comments", "title": "Comments"}
   ],
   "list": [
-    "Facility_N",
-    "Facility_T"
+    "Facility_Name",
+    "Facility_Type"
   ],
   "facets": {
-    "Facility_T": {
+    "Facility_Type": {
       "title": "Facility",
       "type": "single"
     }
@@ -35,5 +34,6 @@
     "hostname": "auto",
     "detail_enabled": true
   },
-  "geojson_source": "data.anchorage.geojson"
+  "geojson_source": "data.anchorage.geojson",
+  "geojson_source": "http://services2.arcgis.com/Ce3DhLRthdwbHlfF/ArcGIS/rest/services/Anchorage_Parks/FeatureServer/2/query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelWithin&resultType=standard&distance=&units=esriSRUnit_Meter&outFields=*&returnGeometry=true&multipatchOption=&maxAllowableOffset=&geometryPrecision=&outSR=4326&returnIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnDistinctValues=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&quantizationParameters=&f=pgeojson&token="
 }
