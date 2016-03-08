@@ -26,12 +26,7 @@
     "Facility_Type"
   ],
   "search": {
-   "geosearch": false,
-   "full_text": {
-      "keys": [
-        "Name",
-        "Type"]
-    }
+   "geosearch": false
 },
   "facets": {
     "Facility_Type": {
