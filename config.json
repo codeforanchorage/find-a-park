@@ -8,7 +8,7 @@
     "preview_attribute": "Facility_Name",
     "center":[61.1590074,-149.8642939],
     "zoom":11,
-    "maxZoom":16
+    "maxZoom":16,
     "maxBounds":[
       [60.6, -152.4],
       [62.3, -146.7]
