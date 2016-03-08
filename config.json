@@ -9,6 +9,10 @@
     "center":[61.1590074,-149.8642939],
     "zoom":11,
     "maxZoom":16
+    "maxBounds":[
+      [61.5, -150.2],
+      [60.0, -149.0]
+    ]
   },
   "properties": [
     {"name": "Facility_Name", "title": "Name"},
@@ -22,12 +26,12 @@
     "Facility_Type"
   ],
   "search": {
-   "geosearch": false,
+   "geosearch": true,
    "full_text": {
       "keys": [
         "Facility_Name",
         "Facility_Type",
-        "description",
+        "Description",
         "Owner",
         "Comments"]
     }
