@@ -21,6 +21,9 @@
     "Facility_Name",
     "Facility_Type"
   ],
+  "search": {
+   "geosearch": true
+},
   "facets": {
     "Facility_Type": {
       "title": "Facility",
