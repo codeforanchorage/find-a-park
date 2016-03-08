@@ -29,11 +29,8 @@
    "geosearch": true,
    "full_text": {
       "keys": [
-        "Facility_Name",
-        "Facility_Type",
-        "Description",
-        "Owner",
-        "Comments"]
+        "Name",
+        "Type"]
     }
 },
   "facets": {
