@@ -22,7 +22,7 @@
     "Facility_Type"
   ],
   "search": {
-   "geosearch": true,
+   "geosearch": false,
    "full_text": {
       "keys": [
         "Facility_Name",
