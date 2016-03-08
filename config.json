@@ -22,7 +22,15 @@
     "Facility_Type"
   ],
   "search": {
-   "geosearch": true
+   "geosearch": true,
+   "full_text": {
+      "keys": [
+        "Facility_Name",
+        "Facility_Type",
+        "description",
+        "Owner",
+        "Comments"]
+    }
 },
   "facets": {
     "Facility_Type": {
